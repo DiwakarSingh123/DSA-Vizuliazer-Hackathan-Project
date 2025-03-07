@@ -1,0 +1,13 @@
+.select{
+    max-width:300px;
+    width:100%;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.option{
+    width: 600px;
+    
+}

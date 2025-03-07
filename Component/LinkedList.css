@@ -1,0 +1,62 @@
+.list-result {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw; /* Ensures the container never exceeds viewport width */
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+    padding: 0.5rem;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+}
+
+/* List Item Container */
+.list-res-text {
+    display: flex;
+    align-items: center;
+}
+
+/* First Node Styling */
+.list-res-text p:nth-child(1) {
+    border: 2px solid skyblue;
+    padding: 2rem 0.5rem;
+    border-right: none;
+    cursor: pointer;
+}
+
+.list-res-text p:nth-child(1):hover {
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+/* Other Nodes Styling */
+.list-res-text p:nth-child(2) {
+    border: 2px solid red;
+    padding: 2rem 0.5rem;
+}
+
+.list-res-text p:nth-child(2):hover {
+    background-color: red;
+    color: white;
+}
+
+/* Arrow Styling */
+.hori-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.hori-arrow img {
+    width: 40px;
+    height: 10px;
+}
+
+/* Highlight Node */
+.highlight {
+    background-color: #258FE6;
+    font-weight: bold;
+    transition: background-color 0.5s ease-in-out;
+}

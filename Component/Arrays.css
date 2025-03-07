@@ -1,0 +1,138 @@
+.array-container{
+    margin-top: 2rem;
+    font-family: "Poppins", serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.array-container button{
+    border: none;
+    padding:0.8rem 2rem;
+    font-weight: 500;
+    font-size:1rem;
+    border-radius: 10px;
+    background-color: rgb(108, 209, 152);
+    cursor: pointer;
+    width:fit-content;
+}
+.array-container button:hover{
+    transition: 0.2s;
+    color: white;
+    box-shadow: 0 0 15px 5px rgb(108, 209, 152);
+}
+
+.operation{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.oper-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.oper-btn div{
+    display: flex;
+    gap: 1rem;
+}
+
+
+.creat-btn{
+    display: flex;
+    gap: 12rem;
+}
+.creat-btn button{
+    border: none;
+    padding:0.8rem 2rem;
+    font-weight: 500;
+    font-size:1rem;
+    border-radius: 10px;
+    background-color: rgb(108, 209, 152);
+    cursor: pointer;
+    width:fit-content;
+}
+.creat-btn button:hover{
+    transition: 0.2s;
+    color: white;
+    box-shadow: 0 0 15px 5px rgb(108, 209, 152);
+}
+
+/* Show array................. */
+.row-array{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+.ind{
+    display: flex;
+   
+}
+.ind p{
+    border:2px solid skyblue;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    min-width: 50px;
+}
+.ind p:hover{
+    background-color: palevioletred;
+    color: white;
+}
+.ind div{
+    display: flex;
+    gap: 1rem;
+}
+.highlight {
+    background-color: #258FE6; /* Change to any color you like */
+    font-weight: bold;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+
+  /* Array */
+  .array-text{
+    margin-top:4rem;
+  }
+  .array-text .img-div{
+    max-width:70%;
+    margin: 0 auto;
+
+  }
+ 
+  .array-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .array-text div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .array-text div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .array-text img{
+    width:100%;
+    
+  }
+
+  @media(max-width:450px){
+    .creat-btn{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+   
+    }

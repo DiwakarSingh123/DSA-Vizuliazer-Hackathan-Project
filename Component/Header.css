@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+header{
+    display: flex;
+    flex-direction: column;
+   
+}
+.algo-div{
+    display: flex;
+    gap: 3rem;
+    
+}
+
+.header input{
+    max-width:300px;
+    width:100%;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.header input::placeholder{
+    color: silver;
+}
+.menu{
+    display: none;
+    font-size:2rem;
+    font-weight: 600;
+}
+@media(max-width:750px){
+    .algo-div{
+       display: none;
+    }
+}
+
+@media(max-width:550px){
+    .input{
+       display: none;
+    }
+    .menu{
+        display: block;
+    }
+    html{
+        font-size:80%;
+    }
+}
+
+@media(max-width:550px){
+    
+}

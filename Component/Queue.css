@@ -1,0 +1,99 @@
+.Queue-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .operation-btn {
+    margin-bottom: 20px;
+  }
+  
+  .operation-btn button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .showing-result {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 100%;
+    min-width: 400px;
+    max-width:600px; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    scroll-behavior: smooth; 
+}
+
+.queue-box {
+  background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    min-width: max-content; /* Ensures it expands to fit all items */
+    border: 2px solid black;
+    margin-left: 10rem;
+}
+.kalu{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  min-width: max-content; /* Ensures it expands to fit all items */
+  border: 2px solid black;
+  
+}
+.queue-item {
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
+    width: 50px;
+}
+
+  
+  .res-box {
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    text-align: center;
+  }
+  
+  .Arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .arrow-head, .arrow-tail {
+    display: flex;
+   gap: 0.3rem;
+    align-items: center;
+  }
+  
+  .arrow-head img,.arrow-tail img{
+    width:40px;
+  }
+  
+  @media(max-width:400px){
+    .showing-result {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-inline: 2rem;
+      width: 100%;
+      min-width:300px;
+      max-width:400px; 
+      overflow-x: auto; 
+      white-space: nowrap; 
+      scroll-behavior: smooth; 
+  }
+  }
